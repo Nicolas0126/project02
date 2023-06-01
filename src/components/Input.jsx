@@ -18,7 +18,7 @@ const Input = ({ setWeather }) => {
   return (
     <section className="text-black m-auto ">
       <form className="flex gap-3" onSubmit={handleSubmit}>
-        <input className="bg-white/80 border-2 border-black px-7 rounded-3xl " id="cityName" type="text" placeholder="Enter Country/City"/>
+        <input className="bg-white/80 border-2 border-black px-7 rounded-3xl " id="cityName" type="text" placeholder="Enter your City"/>
         <button className="bg-white/80 border-2 border-black p-2 rounded-lg">Search</button>
       </form>
     </section>
